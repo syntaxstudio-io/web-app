@@ -1,0 +1,30 @@
+
+{
+   "presets": [
+    [
+      "next/babel",
+      {
+        "targets": {
+          "node": "current",
+          "browser": true
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["."], // This says the root of your project folder
+        "alias": { // Insert your whatever name to make alias for the imports
+          "@components": "./src/components",
+          "@types": "./src/types",
+          "@utils": "./src/utils",
+          "@assets": "./src/assets",
+          "@styles": "./src/styles",
+          "@theme": "./src/theme"
+        }
+      }
+    ]
+  ]
+}
