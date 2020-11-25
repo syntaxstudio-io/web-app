@@ -8,7 +8,7 @@ class MyDocument extends Document {
         <Head>
           <meta charSet="utf-8" />
           <meta content="IE=edge" httpEquiv="X-UA-Compatible" />
-          <meta name="theme-color" content="#fff" />
+          <meta name="theme-color" content="" />
         </Head>
         <body>
           <Main />

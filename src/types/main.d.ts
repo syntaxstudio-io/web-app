@@ -1,10 +1,10 @@
 /**
- * Head
+ * HTML Head
  * ------------------------------------------------
- * An interface intended for use in CustomHead component
+ * A type intended for use in CustomHead component
  */
 
-export interface Head {
+export type HTMLHead = {
   title?: string
   description?: string
   url?: string

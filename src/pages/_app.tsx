@@ -1,4 +1,4 @@
-import { CSSReset, ThemeProvider } from '@chakra-ui/core'
+import { CSSReset, ThemeProvider } from '@chakra-ui/react'
 import customTheme from '@theme/theme'
 import NextApp from 'next/app'
 import Head from 'next/head'
@@ -17,18 +17,6 @@ export default class MyApp extends NextApp {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta name="description" content="" />
           <meta name="keywords" content="" />
-
-          <meta property="og:type" content="" />
-          <meta property="og:url" content="" />
-          <meta property="og:title" content="" />
-          <meta property="og:description" content="" />
-          <meta property="og:image" content="" />
-
-          <meta name="twitter:title" content="" />
-          <meta name="twitter:description" content="" />
-          <meta name="twitter:image" content="" />
-          <meta name="twitter:creator" content="" />
-          <meta name="twitter:card" content="" />
 
           <link rel="icon" type="image/png" sizes="32x32" href="" />
           <link rel="icon" type="image/png" sizes="16x16" href="" />
