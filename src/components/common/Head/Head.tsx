@@ -1,8 +1,8 @@
 import NextHead from 'next/head'
 import React from 'react'
-import { HTMLHead } from '../types/main'
+import { HTMLHead } from '../../../types/main'
 
-const CustomHead: React.FC<HTMLHead> = ({ title, description, url, ogImage }): JSX.Element => (
+const Head: React.FC<HTMLHead> = ({ title, description, url, ogImage }): JSX.Element => (
   <NextHead>
     <meta charSet="UTF-8" />
     <title>{title}</title>
@@ -22,4 +22,4 @@ const CustomHead: React.FC<HTMLHead> = ({ title, description, url, ogImage }): J
   </NextHead>
 )
 
-export default CustomHead
+export default Head

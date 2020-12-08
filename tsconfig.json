@@ -16,17 +16,16 @@
     "noImplicitAny": false,
     "baseUrl": ".",
     "paths": {
-      "*": ["src/*"],
       "@components/*": ["./src/components/*"],
       "@types/*": ["./src/types/*"],
       "@utils/*": ["./src/utils/*"],
       "@assets/*": ["./src/assets/*"],
-      "@styles/*": ["./src/styles/*"],
-      "@theme/*": ["./src/theme/*"],
+      "@config/*": ["./src/config/*"],
+      "@containers/*": ["./src/containers/*"],
       "@data/*": ["./src/data/*"]
     },
     "typeRoots": ["./node_modules/@types", "./src/types"]
   },
-  "include": ["next-env.d.ts", "*/**/*.ts", "*/**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "**/*.js"],
   "exclude": ["node_modules"]
 }

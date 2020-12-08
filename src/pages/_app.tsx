@@ -1,9 +1,9 @@
 import { CSSReset, ThemeProvider } from '@chakra-ui/react'
-import customTheme from '@theme/theme'
+import customTheme from '@config/theme'
 import NextApp from 'next/app'
 import Head from 'next/head'
 import React from 'react'
-import '@styles/index.css'
+import '@assets/index.css'
 
 export default class MyApp extends NextApp {
   render(): JSX.Element {

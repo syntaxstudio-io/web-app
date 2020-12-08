@@ -1,6 +1,5 @@
-
 {
-   "presets": [
+  "presets": [
     [
       "next/babel",
       {
@@ -16,13 +15,15 @@
       "module-resolver",
       {
         "root": ["."], // This says the root of your project folder
-        "alias": { // Insert your whatever name to make alias for the imports
+        "alias": {
+          // Insert your whatever name to make alias for the imports
           "@components": "./src/components",
           "@types": "./src/types",
           "@utils": "./src/utils",
           "@assets": "./src/assets",
-          "@styles": "./src/styles",
-          "@theme": "./src/theme"
+          "@config": "./src/config",
+          "@containers": "./src/containers",
+          "@data": "./src/data"
         }
       }
     ]
